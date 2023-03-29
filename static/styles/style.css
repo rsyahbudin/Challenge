@@ -1,0 +1,77 @@
+body {
+  background-color: #9c835f;
+}
+
+.choice.active {
+  background-color: #d2d2d2;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+#nav-default{
+  font-weight: 800;
+  font-size: 62px;
+  color: #724C21;
+}
+
+
+#nav-default img {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+#nav-default h2 {
+  text-transform: uppercase;
+  color: #f9b23d;
+  margin-left: 20px;
+}
+
+.pilihan h2{
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+}
+
+.pilihan button{
+  background-color: transparent;
+  border: none;
+}
+
+
+/* .pilihan button:hover{
+  background-color: #C4C4C4;
+  border: none;
+  border-radius: 30px;
+transition: color .15s, ease-in-out,background-color .30s;} */
+
+img.rps{
+  width: 50%;
+  padding: 15px;
+  /* margin-top: 20px;   */
+}
+
+img.reset{
+  width: 70%;
+}
+
+#result p{
+  color: #bd0000;
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 200px;
+}
+
+/* #result button{
+  background-color: transparent;
+  border: none;
+} */
+
+#result .box {
+  background-color: #006810;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 100px;
+  display: none;
+}
