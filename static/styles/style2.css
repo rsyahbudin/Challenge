@@ -1,0 +1,261 @@
+/* Header Start */
+#cover{
+    background-image: url('../images/main-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+}
+
+.bg-transparent{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.logo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 24px;
+    /* line-height: 33px; */
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 12px;
+    /* line-height: 16px; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.btn{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1A1917;
+}
+
+/* Header End */
+
+#gallery{
+    background-image: url('../images/the-games-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+    display: flex;
+    align-items: center;
+}
+
+#features{
+    background-image: url('../images/features.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.game-list{
+    list-style-type: none;
+}
+
+
+.game-list::before{
+    content: '';
+    background: white;
+    width: 2px;
+    height: 130px;
+    position: absolute;
+    left: 20px;
+}
+
+.game-item > h5 {
+    color: #ffb548;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 28px; */
+    letter-spacing: 2px;
+}
+
+.game-item > p {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 18px;
+    /* line-height: 22px; */
+    /* or 122% */
+    text-align: justify;
+}
+
+.game-item.active:before {
+    content: '';
+    background-image: url('../images/ellipse.svg');
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 12px;
+}
+
+.game-item.inactive:before {
+    content: '';
+    background-image: url('../images/ellipse-outline.svg');
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 12px;
+}
+
+@media (min-width: 1200px) { 
+    .game-list::before{
+        content: '';
+        background: white;
+        width: 2px;
+        height: 105px;
+        position: absolute;
+        left: 20px;
+    }
+}
+
+#requirements {
+    background-image: url('../images/requirements.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+    display: flex;
+    align-items: center;
+}
+
+table h5{
+    color: #ffb548;
+}
+
+#top-score {
+    background-image: url('../images/top-score-bg.png');
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px #ffb548;
+}
+
+.card {
+    background-color: #222222;
+    border-radius: .75rem;;
+}
+
+.card-title {
+    color: #ffb548;
+}
+
+.card-body h5, .card-body h6 {
+    display: inline;
+}
+
+.card-body h6 {
+    position: absolute;
+    top: 60px;
+    left: 85px;
+}
+
+
+.card-twitter {
+    background-image: url('../images/twitter-card.png');
+    background-color: #eee;
+    height: 20px;
+    width: 20px;
+}
+
+@media (min-width: 786px) {
+    .card-middle {
+        position: relative;
+        left: -75px;
+    }
+}
+
+#newsletter {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('../images/newsletter.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+}
+
+#skull{
+    width: 50%;
+    max-height: 80vh;
+}
+
+#news-text{
+    z-index: 1;
+    width: 50%;
+}
+
+#news-text h1, #news-text p {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+    #news-text {
+        position: relative;
+        left: -25%;
+    }
+}
+
+.form-binar {
+    color: #ffb548;
+    font-weight: 600;
+    background-color: #3f3f3f !important;
+    border: 1px solid #3f3f3f;
+}
+
+.main-footer {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	/* margin-right: auto; */
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.main-footer li { display:inline;}
+.main-footer li a { color:#fff; margin:0 20px;}
+.main-footer img{
+    margin-left: 20px;
+}
+
+.bottom_border { border-bottom:1px solid #ffff; padding-bottom:20px;}
+
+.btn-warning{
+    background-color: #F9B23E;
+}
